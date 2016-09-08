@@ -145,8 +145,7 @@ public class YandexTest extends BaseTest {
 		LOG.info("finish 'yandexSendLetter'");
 	}
 
-	@Test(dependsOnMethods = "yandexSendLetter", dataProvider = "parametersForLetter") // не
-	                                                                                   // работает
+	@Test(dependsOnMethods = "yandexSendLetter", dataProvider = "parametersForLetter")
 	public void checkSentMails(Letter letter) throws InterruptedException {
 		LOG.info("start 'checkSentMails'");
 		sendedLetters = new SendedLettersPage(driver);

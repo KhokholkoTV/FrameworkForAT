@@ -21,6 +21,11 @@ public class Runner {
 		new Runner(args).run();
 	}
 
+	/**
+	 * Method сreates a new command line owner that parses arguments/options
+	 * 
+	 * @author Tatiana Khokholko
+	 */
 	public Runner(String[] args) {
 		Setting settings = new Setting();
 		CmdLineParser parser = new CmdLineParser(settings);
