@@ -1,0 +1,266 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 07 15:09:23 MSK 2016</td>
+</tr>
+<tr><td>Total time:</td><td>25 seconds (25154 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.checkSentMails()'><b>checkSentMails</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br>Parameters: Letter[recipient=khokholko1990@yandex.ru,subj=mem1,text=myxaxa!]<br/>
+<a href="#Output-589311950" onClick='toggleBox("Output-589311950", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-589311950" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-589311950">
+ INFO work.YandexTest# 151: start 'checkSentMails'<br><br/>
+ INFO object.MainPage#  89: start 'checkSentLetters'<br><br/>
+ INFO object.MainPage# 104: finish 'checkSentLetters'<br><br/>
+ INFO work.YandexTest# 168: finish 'checkSentMails'<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.checkSentMails()'><b>checkSentMails</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br>Parameters: Letter[recipient=khokholko1990@yandex.ru,subj=mem2,text=my-xa-xa-xa!]<br/>
+<a href="#Output-1336001042" onClick='toggleBox("Output-1336001042", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1336001042" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1336001042">
+ INFO work.YandexTest# 151: start 'checkSentMails'<br><br/>
+ INFO object.MainPage#  89: start 'checkSentLetters'<br><br/>
+ INFO object.MainPage# 104: finish 'checkSentLetters'<br><br/>
+ INFO work.YandexTest# 168: finish 'checkSentMails'<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.discardDrafts()'><b>discardDrafts</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br/>
+<a href="#Output-996125997" onClick='toggleBox("Output-996125997", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-996125997" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-996125997">
+ INFO work.YandexTest# 129: start 'discardDrafts'<br><br/>
+ INFO object.MainPage#  64: start 'discardDrafts'<br><br/>
+ INFO object.MainPage#  72: finish 'discardDrafts'<br><br/>
+ INFO work.YandexTest# 132: finish 'discardDrafts'<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.discardSentLetters()'><b>discardSentLetters</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br/>
+<a href="#Output-455501890" onClick='toggleBox("Output-455501890", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-455501890" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-455501890">
+ INFO work.YandexTest# 173: start 'discardSentLetters'<br><br/>
+ INFO object.MainPage# 108: start 'discardSentLetters'<br><br/>
+ INFO object.MainPage# 118: finish 'discardSentLetters'<br><br/>
+ INFO work.YandexTest# 175: finish 'discardSentLetters'<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.exit()'><b>exit</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br/>
+<a href="#Output-1414967210" onClick='toggleBox("Output-1414967210", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1414967210" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1414967210">
+ INFO work.YandexTest# 180: start 'logOut'<br><br/>
+ INFO object.MainPage#  86: start 'logOut'<br><br/>
+ INFO object.MainPage#  90: finish 'logOut'<br><br/>
+ INFO work.YandexTest# 182: finish 'logOut'<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.letterDraftsCheck()'><b>letterDraftsCheck</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br>Parameters: Letter[recipient=khokholko1990@yandex.ru,subj=mem1,text=myxaxa!]<br/>
+<a href="#Output-1164799006" onClick='toggleBox("Output-1164799006", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1164799006" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1164799006">
+ INFO work.YandexTest# 118: start 'letterDraftsCheck'<br><br/>
+ INFO object.MainPage#  56: start 'checkDrafts'<br><br/>
+ INFO object.MainPage#  60: finish 'checkDrafts'<br><br/>
+ INFO work.YandexTest# 124: finish 'letterDraftsCheck'<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.letterDraftsCheck()'><b>letterDraftsCheck</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br>Parameters: Letter[recipient=khokholko1990@yandex.ru,subj=mem2,text=my-xa-xa-xa!]<br/>
+<a href="#Output-429353573" onClick='toggleBox("Output-429353573", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-429353573" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-429353573">
+ INFO work.YandexTest# 118: start 'letterDraftsCheck'<br><br/>
+ INFO object.MainPage#  56: start 'checkDrafts'<br><br/>
+ INFO object.MainPage#  60: finish 'checkDrafts'<br><br/>
+ INFO work.YandexTest# 124: finish 'letterDraftsCheck'<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.loginTest()'><b>loginTest</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br/>
+<a href="#Output-1222768327" onClick='toggleBox("Output-1222768327", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1222768327" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1222768327">
+ INFO work.YandexTest#  80: start 'loginTest'<br><br/>
+ INFO bject.LoginPage#  45: start 'setLogin'<br><br/>
+ INFO bject.LoginPage#  46: Login:MySeleniumWork@yandex.ru<br><br/>
+ INFO bject.LoginPage#  48: finish 'setLogin'<br><br/>
+ INFO bject.LoginPage#  53: start 'setPassword'<br><br/>
+ INFO bject.LoginPage#  61: finish 'setPassword'<br><br/>
+ INFO bject.LoginPage#  66: start 'clickSubmitButton'<br><br/>
+ INFO bject.LoginPage#  68: finish 'clickSubmitButton'<br><br/>
+ INFO work.YandexTest#  92: finish 'loginTest'<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.writeLetterDrafts()'><b>writeLetterDrafts</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br>Parameters: Letter[recipient=khokholko1990@yandex.ru,subj=mem1,text=myxaxa!]<br/>
+<a href="#Output-2029680286" onClick='toggleBox("Output-2029680286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2029680286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2029680286">
+ INFO work.YandexTest#  98: start 'writeLetterDrafts'<br><br/>
+ INFO object.MainPage#  64: start 'writeLetter'<br><br/>
+ INFO object.MainPage#  65: Letter[recipient=khokholko1990@yandex.ru,subj=mem1,text=myxaxa!]<br><br/>
+ INFO object.MainPage#  82: finish 'writeLetter'<br><br/>
+ INFO work.YandexTest# 113: finish 'writeLetterDrafts'<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.writeLetterDrafts()'><b>writeLetterDrafts</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br>Parameters: Letter[recipient=khokholko1990@yandex.ru,subj=mem2,text=my-xa-xa-xa!]<br/>
+<a href="#Output-777457133" onClick='toggleBox("Output-777457133", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-777457133" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-777457133">
+ INFO work.YandexTest#  98: start 'writeLetterDrafts'<br><br/>
+ INFO object.MainPage#  64: start 'writeLetter'<br><br/>
+ INFO object.MainPage#  65: Letter[recipient=khokholko1990@yandex.ru,subj=mem2,text=my-xa-xa-xa!]<br><br/>
+ INFO object.MainPage#  82: finish 'writeLetter'<br><br/>
+ INFO work.YandexTest# 113: finish 'writeLetterDrafts'<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.yandexSendLetter()'><b>yandexSendLetter</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br>Parameters: Letter[recipient=khokholko1990@yandex.ru,subj=mem1,text=myxaxa!]<br/>
+<a href="#Output-884603232" onClick='toggleBox("Output-884603232", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-884603232" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-884603232">
+ INFO work.YandexTest# 137: start 'yandexSendLetter'<br><br/>
+ INFO object.MainPage#  77: start 'writeLetterAndSend'<br><br/>
+ INFO object.MainPage#  85: finish 'writeLetterAndSend'<br><br/>
+ INFO work.YandexTest# 145: finish 'yandexSendLetter'<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+<tr>
+<td title='com.epam.java.khokholko_tatiana.framework.YandexTest.yandexSendLetter()'><b>yandexSendLetter</b><br>Test class: com.epam.java.khokholko_tatiana.framework.YandexTest<br>Parameters: Letter[recipient=khokholko1990@yandex.ru,subj=mem2,text=my-xa-xa-xa!]<br/>
+<a href="#Output-1842853283" onClick='toggleBox("Output-1842853283", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1842853283" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1842853283">
+ INFO work.YandexTest# 137: start 'yandexSendLetter'<br><br/>
+ INFO object.MainPage#  77: start 'writeLetterAndSend'<br><br/>
+ INFO object.MainPage#  85: finish 'writeLetterAndSend'<br><br/>
+ INFO work.YandexTest# 145: finish 'yandexSendLetter'<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.epam.java.khokholko_tatiana.framework.YandexTest@6b09bb57</td></tr>
+</table><p>
+</body>
+</html>

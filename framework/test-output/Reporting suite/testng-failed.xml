@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Reporting suite]">
+  <test name="YandexTest test">
+    <classes>
+      <class name="com.epam.java.khokholko_tatiana.framework.YandexTest"/>
+    </classes>
+  </test> <!-- YandexTest test -->
+  <test name="YandexTest test(failed)">
+    <classes>
+      <class name="com.epam.java.khokholko_tatiana.framework.YandexTest">
+        <methods>
+          <include name="letterDraftsCheck"/>
+          <include name="loginTest"/>
+          <include name="writeLetterDrafts"/>
+          <include name="discardDrafts"/>
+          <include name="startBrowser"/>
+          <include name="discardSentLetters"/>
+          <include name="yandexSendLetter"/>
+          <include name="exit"/>
+          <include name="checkSentMails"/>
+        </methods>
+      </class> <!-- com.epam.java.khokholko_tatiana.framework.YandexTest -->
+    </classes>
+  </test> <!-- YandexTest test(failed) -->
+</suite> <!-- Failed suite [Reporting suite] -->
